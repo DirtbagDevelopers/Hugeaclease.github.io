@@ -1,7 +1,7 @@
 body {
-    background-color:rgb(219, 63, 52);
+    background-color: #EB0202;
     font-family: sans-serif;
-    color:rgb(250, 213, 5);
+    color: yellow;
 }
 
 h1 {
@@ -22,9 +22,15 @@ h2 {
 
 .contents {
   list-style: none;
-  display: inline-block;
+  padding: 0;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto
+}
+
+.prep {
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto
 }
 
 section {
@@ -46,6 +52,10 @@ table {
   border-collapse: collapse;
   margin-left: auto;
   margin-right: auto;
+}
+
+input[type="text"] {
+  width: 100%;
 }
 
 th, td {

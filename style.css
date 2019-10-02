@@ -1,0 +1,52 @@
+body {
+    background-color:rgb(219, 63, 52);
+    font-family: sans-serif;
+    color:rgb(250, 213, 5);
+}
+
+h1 {
+  text-align: center;
+  cursor: default;
+}
+
+nav {
+  font-size: 0.85em;
+  text-align: center;
+}
+
+
+h2 {
+  text-align: center;
+  cursor: default;
+}
+.contents {
+  list-style: none;
+  display: inline-block;
+}
+
+p {
+  cursor: default;
+
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table {
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th, td {
+  text-align: center;
+  border: 1px solid yellow;
+  cursor: default;
+}
+footer {
+    font-size: 0.75em;
+    text-align: center;
+}

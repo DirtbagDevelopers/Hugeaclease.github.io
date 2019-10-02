@@ -19,9 +19,16 @@ h2 {
   text-align: center;
   cursor: default;
 }
+
 .contents {
   list-style: none;
   display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section {
+  text-align: center;
 }
 
 p {

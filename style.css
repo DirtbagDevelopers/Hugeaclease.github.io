@@ -1,40 +1,51 @@
 body {
     background-color: #EB0202;
-    font-family: font-family: 'Vibes', cursive; cursive;
+    font-family: cursive;
+    text-align: center;
     color: yellow;
 }
 
-h1 {
-  text-align: center;
-  cursor: default;
-}
-
 nav {
-  font-size: 0.85em;
-  text-align: center;
+  font-size: 85%;
 }
 
+h1, h2, h3 {
+  cursor: default;
+  font-family: 'Vibes', cursive;
+  font-size: 350%;
+  text-align: center;
+  clear:both;
+}
 
 h2 {
-  text-align: center;
-  cursor: default;
+  font-size: 250%;
+}
+
+h3 {
+  font-size: 200%;
+}
+
+.cookbook-img {
+  float: left;
+  width: 400px;
 }
 
 .contents {
-  list-style: none;
-  padding: 0;
-  margin-left: auto;
-  margin-right: auto
+  background-color:#FF0C0C;
+  border: 5px solid #AD1414;
+  display: inline-block;
+  padding: 5px 20px;
+  margin: 0px 10px;
+  height: 120px;
 }
 
 .prep {
-  padding: 0;
-  margin-left: auto;
-  margin-right: auto
+  padding-left: 10px;
+
 }
 
 section {
-  text-align: center;
+  text-align: left;
 }
 
 p {
@@ -59,11 +70,10 @@ input[type="text"] {
 }
 
 th, td {
-  text-align: center;
   border: 1px solid yellow;
   cursor: default;
 }
 footer {
     font-size: 0.75em;
-    text-align: center;
+    clear:both;
 }

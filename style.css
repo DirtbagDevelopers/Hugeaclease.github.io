@@ -15,6 +15,7 @@ h1, h2, h3 {
   font-size: 350%;
   text-align: center;
   clear:both;
+  text-transform: uppercase;
 }
 
 h2 {
@@ -36,7 +37,24 @@ h3 {
   display: inline-block;
   padding: 5px 20px;
   margin: 0px 10px;
-  height: 120px;
+  height: 60px;
+}
+
+.adventure-time-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.adventure-time-container img{
+  height: 300px;
+  width: 300px;
+  margin: 10px;
+  transition: all 1s;
+}
+
+.adventure-time-container img:hover{
+  transform: scale(1.1);
 }
 
 .prep {

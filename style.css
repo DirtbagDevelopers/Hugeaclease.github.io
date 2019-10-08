@@ -1,106 +1,74 @@
-body {
-    background-color: #EB0202;
-    font-family: cursive;
-    text-align: center;
-    color: yellow;
+/* Photo by Yazmin Maloney at Bosigran, Cornwall, England */
+#index {
+	background-image: url("van-sunset.jpg");
+	background-position: center center;
+  background-repeat: no-repeat;
+	background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
 }
 
-nav {
-  font-size: 85%;
+#form {
+	background-image: url("2-hippies-in-a-car.jpg");
+	background-position: center center;
+  background-repeat: no-repeat;
+	background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
 }
 
-h1, h2, h3 {
-  cursor: default;
-  font-family: 'Vibes', cursive;
-  font-size: 350%;
-  text-align: center;
-  clear:both;
-  text-transform: uppercase;
+/* Photo by Yazmin Maloney at Portland, England */
+#recieved {
+	background-image: url("laying-by-the-sea.jpg");
+	background-position: center center;
+  background-repeat: no-repeat;
+	background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+}
+
+.form-input {
+	background-color: rgba(225, 222,	233, 0.8);
+	border: 1px solid gray;
+	border-radius: 25px;
+	padding: 20px 10px;
+	position: absolute;
+	top: 40%;
+	left: 35%;
+	transform: translate(-50% -50%);
+}
+
+.form-input-inner {
+	text-align: left;
+}
+
+h1, h2 {
+	color: orange;
+	font-family: 'Mansalva', cursive;
+	text-shadow: 2px 2px #FEE8BF;
 }
 
 h2 {
-  font-size: 250%;
-}
-
-h3 {
-  font-size: 200%;
-}
-
-.cookbook-img {
-  float: left;
-  width: 400px;
-}
-
-.contents {
-  background-color:#FF0C0C;
-  border: 5px solid #AD1414;
-  display: inline-block;
-  padding: 5px 20px;
-  margin: 0px 10px;
-  height: 60px;
-}
-
-
-.prep {
-  padding-left: 10px;
+	position: absolute;
+	top:32%;
+	left: 34%;
 
 }
 
-section {
-  text-align: left;
+.btn {
+	font-family: 'Mansalva', cursive;
 }
 
-p {
-  cursor: default;
-
+.text {
+	text-align: center;
+	margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.adventure-time-container{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.adventure-time-container img{
-  height: 300px;
-  width: 300px;
-  margin: 10px;
-  transition: all 0.5s;
-}
-
-.adventure-time-container img:hover{
-  transform: scale(1.1);
-}
-
-.cookbook-img {
-  transition: all 0.5s;
-}
-
-.cookbook-img:hover{
-  transform: scale(1.3);
-}
-
-table {
-  border-collapse: collapse;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-input[type="text"] {
-  width: 100%;
-}
-
-th, td {
-  border: 1px solid yellow;
-  cursor: default;
-}
-footer {
-    font-size: 0.75em;
-    clear:both;
+#text-recieved {
+	color: #00FFFF;
+	text-shadow: 2px 2px #FF0000;
 }

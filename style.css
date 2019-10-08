@@ -1,0 +1,74 @@
+/* Photo by Yazmin Maloney at Bosigran, Cornwall, England */
+#index {
+	background-image: url("van-sunset.jpg");
+	background-position: center center;
+  background-repeat: no-repeat;
+	background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+}
+
+#form {
+	background-image: url("2-hippies-in-a-car.jpg");
+	background-position: center center;
+  background-repeat: no-repeat;
+	background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+}
+
+/* Photo by Yazmin Maloney at Portland, England */
+#recieved {
+	background-image: url("laying-by-the-sea.jpg");
+	background-position: center center;
+  background-repeat: no-repeat;
+	background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+}
+
+.form-input {
+	background-color: rgba(225, 222,	233, 0.8);
+	border: 1px solid gray;
+	border-radius: 25px;
+	padding: 20px 10px;
+	position: absolute;
+	top: 40%;
+	left: 35%;
+	transform: translate(-50% -50%);
+}
+
+.form-input-inner {
+	text-align: left;
+}
+
+h1, h2 {
+	color: orange;
+	font-family: 'Mansalva', cursive;
+	text-shadow: 2px 2px #FEE8BF;
+}
+
+h2 {
+	position: absolute;
+	top:32%;
+	left: 34%;
+
+}
+
+.btn {
+	font-family: 'Mansalva', cursive;
+}
+
+.text {
+	text-align: center;
+	margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#text-recieved {
+	color: #00FFFF;
+	text-shadow: 2px 2px #FF0000;
+}

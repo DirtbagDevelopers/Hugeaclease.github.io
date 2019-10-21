@@ -1,9 +1,9 @@
 //user input
     const rockChoice = document.getElementById("rock-button");
     const paperChoice = document.getElementById("papet-button");
-    const sciccorsChoice = document.getElementById("sciccors-button");
+    const scissorsChoice = document.getElementById("scissors-button");
 
-//rockButtonChoice, paperButtonChoice, sciccorsButtonChoice all triggered from index
+//rockButtonChoice, paperButtonChoice, scissorsButtonChoice all triggered from index
 function rockButtonChoice(event) {
    return userInput = "rock";
 };
@@ -12,12 +12,12 @@ function paperButtonChoice() {
     return userInput = "paper";
 };
 
-function sciccorsButtonChoice() {
-    return userInput = "sciccors";
+function scissorsButtonChoice() {
+    return userInput = "scissors";
 };
 
 function getUserChoice() {
-    if (userInput === "rock" || userInput === "paper" || userInput ===  "sciccors") {
+    if (userInput === "rock" || userInput === "paper" || userInput ===  "scissors") {
         return userInput;
     } else {
     console.log("invalid input choice");
@@ -32,7 +32,7 @@ function getComputerChoice() {
         case 1:
             return "paper";
         case 2:
-            return "sciccors";
+            return "scissors";
         default:
             return console.log("Error with getComputerChoice");
     };
@@ -42,17 +42,17 @@ function getComputerChoice() {
 function determineWinner(userChoice, computerChoice) {
     if (userChoice === computerChoice) {
         return "We got a tie!";
-    } else if (userChoice === "paper" && computerChoice === "sciccors") {
+    } else if (userChoice === "paper" && computerChoice === "scissors") {
         return "The computer won!";
     } else if (userChoice === "paper" && computerChoice === "rock") {
         return "You won!";
     } else if (userChoice === "rock" && computerChoice === "paper") {
         return "The computer won!";
-    } else if (userChoice === "rock" && computerChoice === "sciccors") {
+    } else if (userChoice === "rock" && computerChoice === "scissors") {
         return "You won!";
-    } else if (userChoice === "sciccors" && computerChoice === "rock") {
+    } else if (userChoice === "scissors" && computerChoice === "rock") {
         return "The computer won!";
-    } else if (userChoice === "sciccors" && computerChoice === "paper") {
+    } else if (userChoice === "scissors" && computerChoice === "paper") {
         return "You won!"; 
     }};
 

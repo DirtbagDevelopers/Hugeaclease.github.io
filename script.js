@@ -5,14 +5,17 @@
 
 //rockButtonChoice, paperButtonChoice, scissorsButtonChoice all triggered from index
 function rockButtonChoice(event) {
-   return userInput = "rock";
+    alert("Rock. A little stone age but I guess it works")
+    return userInput = "rock";
 };
 
 function paperButtonChoice() {
+    alert("Call this controversial but no one has ever won a war with paper")
     return userInput = "paper";
 };
 
 function scissorsButtonChoice() {
+    alert("Scissors, definitley a potential murder weapon")
     return userInput = "scissors";
 };
 
@@ -43,11 +46,11 @@ function determineWinner(userChoice, computerChoice) {
     if (userChoice === computerChoice) {
         return "We got a tie!";
     } else if (userChoice === "paper" && computerChoice === "scissors") {
-        return "The computer won!";
+        return "The computer won because you brought paper to a scissors fight!";
     } else if (userChoice === "paper" && computerChoice === "rock") {
-        return "You won!";
+        return "You won... with paper... wow.";
     } else if (userChoice === "rock" && computerChoice === "paper") {
-        return "The computer won!";
+        return "The computer won... with paper... you lost to something we wrap presents for babies in because babies beat it every time… well done!";
     } else if (userChoice === "rock" && computerChoice === "scissors") {
         return "You won!";
     } else if (userChoice === "scissors" && computerChoice === "rock") {
